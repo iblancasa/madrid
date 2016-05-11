@@ -486,8 +486,8 @@
 		createSingletonNode( dom.wrapper, 'aside', 'controls',
 			'<button class="navigate-left" aria-label="previous slide"></button>' +
 			'<button class="navigate-right" aria-label="next slide"></button>' +
-			'<button class="navigate-up" aria-label="above slide"></button>' +
-			'<button class="navigate-down" aria-label="below slide"></button>' );
+			'<button class="navigate-up" hidden aria-label="above slide"></button>' +
+			'<button class="navigate-down" hidden aria-label="below slide"></button>' );
 
 		// Slide number
 		dom.slideNumber = createSingletonNode( dom.wrapper, 'div', 'slide-number', '' );

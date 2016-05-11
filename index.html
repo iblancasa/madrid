@@ -4,10 +4,10 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+		<title>El valor de lo abierto: de software libre y datos</title>
 
 		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+		<link rel="stylesheet" href="css/theme/blood.css">
 
 		<!-- Theme used for syntax highlighting of code -->
 		<link rel="stylesheet" href="lib/css/zenburn.css">
@@ -24,9 +24,60 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section data-background="img/bg.jpg" data-transition="slide">
+					<h2>El valor de lo abierto: de software libre y datos</h2>
+					<h4>(y otras cosas que no cabían en el titulo)</h4>
+				</section>
+
+				<section  data-background="img/bg2.jpg" data-transition="slide">
+					<h2>Y tú... ¿quién eres?</h2>
+					<img style="width:35%; margin-right:5%; float: left; background:none; border: none; box-shadow: none;" src="img/iblancasa.png">
+						<h3>Israel Blancas</h3>
+						<h4>@iblancasa</h4>
+						<p>Entre otras cosas: amante del software libre, asistente a hackathones y organizador de "saraos"</p>
+						<img style="width:60%; background:none; border: none; box-shadow: none;" src="img/gdg.png">
+				</section>
+
+				<section  data-background="img/bg3.jpg" data-transition="slide">
+					<h1>¿Qué es el software libre?</h1>
+				</section>
+
+				<section  data-background="img/bg3.jpg" data-transition="slide">
+					<img width="140%"; src="img/freedom.gif">
+				</section>
+
+				<section  data-background="img/bg4.jpg" data-transition="slide">
+					<h1>¿Datos abiertos? Ciencia</h1>
+				</section>
+				<section  data-background="img/bg4.jpg" data-transition="slide">
+				<img width="150%"; src="img/ciencia.gif">
+				</section>
+
+				<section  data-background="img/bg5.jpg" data-transition="slide">
+					<h1>¿Software? Ciencia</h1>
+				</section>
+
+
+				<section  data-background="img/bg6.jpg" data-transition="slide">
+					<h2>¿Cómo?</h2>
+					<h2 class="fragment">GIT</h2>
+					<h2 class="fragment">¿Dónde?</h2>
+					<img class="fragment" style="background:none; width:45%; border: none; box-shadow: none;" src="img/octocat.png"/>
+				</section>
+
+				<section  data-background="img/bg7.jpg" data-transition="slide">
+					<h1>Los rankings</h1>
+					<h2><a style="background-color:#fff; font-weight:bold;" href="https://goo.gl/4Vg1ac">https://goo.gl/4Vg1ac</a></h2>
+				</section>
+
+			<section  data-background="img/bg7.jpg" data-transition="slide">
+				<img width="150%"; src="img/rankings.gif">
+			</section>
+
 			</div>
+
+
+
 		</div>
 
 		<script src="lib/js/head.min.js"></script>
@@ -36,6 +87,7 @@
 			// More info https://github.com/hakimel/reveal.js#configuration
 			Reveal.initialize({
 				history: true,
+				transition: "slide",
 
 				// More info https://github.com/hakimel/reveal.js#dependencies
 				dependencies: [
