@@ -208,8 +208,9 @@ body {
  * LINKS
  *********************************************/
 .reveal a {
-  color: #a23;
+  color: #fff;
   text-decoration: none;
+  font-weight: bold;
   -webkit-transition: color .15s ease;
   -moz-transition: color .15s ease;
   transition: color .15s ease; }
@@ -222,6 +223,10 @@ body {
 .reveal .roll span:after {
   color: #fff;
   background: #6a1520; }
+
+.reveal ul{
+  list-style: none;
+}
 
 /*********************************************
  * IMAGES
